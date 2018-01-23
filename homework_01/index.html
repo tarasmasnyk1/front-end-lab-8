@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>hw</title>
+      <link rel="stylesheet" href="style.css">
+      <style>
+         nav ul li {
+         display: inline-block;
+         padding: 5px;
+         margin: 5px;
+         color: blue;
+         }
+         .dottedUnderline { border-bottom: 1px dotted; }
+      </style>
+   </head>
+   <body>
+      <div id="wrapper">
+         <div id="main">
+            <div id="container">
+               <div id="content" role="main">
+                  <!-- TODO: Content goes here -->
+                  <img src="EPAM_logo.svg" alt="epam logo">
+                  <nav>
+                     <ul>
+                        <li><a href="index.html">HTML</a></li>
+                        <li><a href="list.html">List</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="textformats.html">Text formats</a></li>
+                        <li><a href="blockquotes.hmtml">Blockquotes</a></li>
+                     </ul>
+                  </nav>
+                  <hr class="thin">
+                  <header>
+                     <h1><strong>HTML Elements</strong></h1>
+                  </header>
+                  <hr class="thin">
+                  <section>
+                     <ul>
+                        <li>
+                           <h2>Heading 1</h2>
+                        </li>
+                        <ul>
+                           <li>
+                              <h2>Heading 2</h2>
+                              <ul>
+                                 <li>
+                                    <h3>Heading 3</h3>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </ul>
+                     <ol>
+                        <li>
+                           <h4>Heading 4</h4>
+                           <ol>
+                              <li>
+                                 <h5>Heading 5</h5>
+                                 <ol>
+                                    <li>
+                                       <h6>Heading 6</h6>
+                                    </li>
+                                 </ol>
+                              </li>
+                           </ol>
+                        </li>
+                     </ol>
+                  </section>
+                  <section>
+                     <h3>Definition List</h3>
+                     <dl>
+                        <dt>defines terms 1</dt>
+                        <dd>description 1</dd>
+                        <dt>defines terms 2</dt>
+                        <dd>description 2</dd>
+                     </dl>
+                  </section>
+                  <section>
+                     <h2> Details</h2>
+                     <details open="open">
+                        <summary>Even more details open</summary>
+                        <p>Here are even more details about the details</p>
+                     </details>
+                     <details close="close">
+                        <summary>Even more details close</summary>
+                        <p>Here are even more details about the details</p>
+                     </details>
+                  </section>
+                  <hr class="thin">
+                  <h3>Table</h3>
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>Elements</th>
+                           <th>Elements</th>
+                           <th>Elements</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td><strong>Strong</strong></td>
+                           <td>H<sub>2</sub>0</td>
+                           <td><a href="#">test Link</a></td>
+                        </tr>
+                        <tr>
+                           <td><i>Italic</i></td>
+                           <td><u>Underline</u></td>
+                           <td><strike>delete</strike></td>
+                        </tr>
+                        <tr>
+                           <td><span class="dottedUnderline">Abbreviation</span></td>
+                           <td>5<sup>3</sup>=125</td>
+                           <td><mark>inserted</mark></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <hr class="thin">
+                  <section>
+                     <h2>Text formats</h2>
+                     <article>
+                        <h3>Article Text</h3>
+                     </article>
+                     <article>
+                        <h2>Article Title</h2>
+                        <p>Article description</p>
+                     </article>
+                  </section>
+                  <h3>Preformatted Text</h3>
+                  <div style="background-color: rgb(247, 246, 247); text-align:left; vertical-align: middle; padding:20px 44px;">
+                     <p><strong>Text</strong><br>
+                        &emsp;&nbsp;in a <strong>pre</strong> element<br>
+                        &emsp;&emsp;is displayed in a fixed-width<br>
+                        font, and it preserves<br>
+                        both&emsp;&emsp;&emsp;&emsp;spaces and<br>
+                        &emsp;&emsp;line breaks
+                     </p>
+                  </div>
+                  <h3>Code</h3>
+                  <div style="background-color: rgb(247, 246, 247); text-align:left; vertical-align: middle; padding:20px 47px;"> 
+                     <code>.wrapper { <br>
+                     &nbsp;&nbsp;display: grid; <br>
+                     &nbsp;&nbsp;grid-template-columns: repeat(3, 1fr); <br>
+                     &nbsp;&nbsp;grid-gap: 10px;<br>
+                     &nbsp;&nbsp;grid-auto-rows: minmax(100px, auto);<br>
+                     }
+                     </code>
+                  </div>
+                  <hr class="thin">
+                  <h2>Blockquotes</h2>
+                  <p>Let's keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
+                  <blockquote>
+                     <p>Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them. <br> 
+                        <a href="#">Steve Jobs</a>
+                     </p>
+                  </blockquote>
+                  <p hidden="">And here's a bit of trailing text.</p>
+                  <footer>Copyright Epam Systems</footer>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
