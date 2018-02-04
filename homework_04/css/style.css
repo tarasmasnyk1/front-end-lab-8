@@ -1,0 +1,220 @@
+body {
+font-family:'Open Sans',sans-serif
+}
+
+header {
+background:url(../img/apples.jpg) center no-repeat;
+height:800px;
+width:1500px;
+color:#fff;
+margin:0;
+position:relative
+}
+
+.block {
+max-width:1200px;
+height:100%;
+margin:0 auto
+}
+
+.logo {
+font-size:15px;
+letter-spacing:7px;
+float:left;
+margin:50px 0 0 250px
+}
+
+.top-navig {
+padding-right:200px;
+padding-top:50px;
+float:right
+}
+
+li {
+display:inline
+}
+
+li a {
+padding:16px 24px;
+margin:12px;
+text-align:center;
+text-decoration:none;
+color:#fff
+}
+
+ul {
+list-style-type:none;
+margin:0;
+padding:0
+}
+
+.best-logo {
+position:absolute;
+left:55%;
+top:50%;
+font-size:50px;
+letter-spacing:5px
+}
+
+.best-logo::after {
+content:"TM";
+position:absolute;
+font-size:14px;
+top:50%;
+letter-spacing:1px
+}
+
+.logo-text {
+position:absolute;
+left:45%;
+top:56%
+}
+
+.button {
+position:absolute;
+left:55%;
+top:75%;
+width:240px;
+height:65px;
+border:1px solid #fff;
+background-color:gray;
+color:#fff
+}
+
+section.description {
+height:370px;
+width:1200px;
+margin:0 auto
+}
+
+section.description div {
+text-align:justify;
+margin:120px 90px 60px 0;
+float:left;
+box-sizing:border-box;
+width:45%
+}
+
+#left-des p {
+font-size:22px;
+line-height:44px
+}
+
+#right-des p {
+width:550px;
+margin:35px 0 0 35px
+}
+
+section.gallery {
+height:1380px;
+background-color:#F0F0F0
+}
+
+.blog {
+font-size:26px;
+height:110px;
+padding-top:150px;
+text-align:center
+}
+
+form {
+text-align:center;
+background:#fff;
+width:1200px;
+height:210px;
+margin:84px auto 0
+}
+
+label .email {
+position:relative;
+top:35%;
+margin:0 34px;
+font-size:25px
+}
+
+input .email {
+top:35%;
+width:420px;
+height:65px;
+padding-left:10px;
+position:relative;
+color:#000
+}
+
+button {
+position:relative;
+top:35%;
+margin-left:0;
+width:180px;
+height:70px;
+background-color:gray;
+color:#fff;
+border:none
+}
+
+footer {
+height:500px;
+background-color:#fff
+}
+
+.footer-navigation {
+width:1200px;
+height:250px;
+display:flex;
+justify-content:center;
+margin:0 auto;
+margin-bottom:50px;
+padding-top:70px
+}
+
+.footer-navigation div p {
+line-height:24px;
+color:#000
+}
+
+.footer-navigation div {
+text-align:justify;
+width:210px;
+margin:42px auto;
+margin-left:90px
+}
+
+q {
+font-style:italic
+}
+
+.footer-navigationdiv:last-child {
+width:300px
+}
+
+.footer-navigation div:first-child {
+margin-left:0
+}
+
+.footer-menu {
+width:1200px;
+margin:0 auto
+}
+
+.footer-ul {
+float:right
+}
+
+.footer-links {
+color:#000
+}
+
+.footer-ul li a {
+text-align:center;
+padding:15px;
+margin:12px
+}
+
+.footer-ul li a:hover {
+border:none
+}
+
+.copyright {
+color:gray
+margin-top:130px;
+}
